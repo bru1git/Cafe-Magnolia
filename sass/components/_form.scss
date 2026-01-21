@@ -1,0 +1,55 @@
+/* ------------------------------------forms--------------------------------*/
+
+@use "../utilities/variables" as *;
+
+
+form {
+    background-color: $color-secundario;
+    border: 1px solid $color-primario;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px $shadow-color;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid $color-primario;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: $color-primario;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+
+.reservar-boton {
+    font-family: $font-primario;
+    padding: 05px 15px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px $shadow-color;
+}
+
+.reservar-boton:hover {
+    background-color: $color-secundario;
+    box-shadow: $shadow-color 2px 2px 1px;
+}

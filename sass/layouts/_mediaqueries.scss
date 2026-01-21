@@ -1,0 +1,25 @@
+/* -------------------------------------mediaqueries------------------------------------- */
+
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+
+@media (max-width: 768px) {
+    #top {
+        @include flexboxcenter;
+        margin-top: 50px;
+        font-family: $font-primario;
+        font-size: 1em;
+        font-style: italic;
+        color: $color-secundario;
+        text-shadow: $shadow-color 5px 5px 5px;
+
+    }
+
+    .index img {
+        @include flexboxcenter;
+        flex-direction: column;
+        max-width: 90vw;
+        margin: 10px;
+    }
+}

@@ -12,16 +12,17 @@
 
 
 <body>
+    
     <header>
-
+        
         <section class="logo">
         <h1 id="top">Café Magnolia</h1>
-        <img src="../img/logo.png" alt="logo">
+        <img class="logo" src="../img/logo.png" alt="logo">
         </section> 
-
-       <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-color">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Cafe Magnolia</a>
+                <a class="navbar-brand" href="../index.html">Cafe Magnolia</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -30,13 +31,10 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link" href="../pages/menu.html">Menú</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./menu.html">Menú</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./reservas.html">Reservas</a>
+                            <a class="nav-link" href="../pages/reservas.html">Reservas</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -44,8 +42,8 @@
                                 Sobre Nosotros
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./nuestroequipo.html">Nuestro equipo</a></li>
-                                <li><a class="dropdown-item" href="./dondeestamos.html">Donde estamos</a></li>
+                                <li><a class="dropdown-item" href="../pages/nuestroequipo.html">Nuestro equipo</a></li>
+                                <li><a class="dropdown-item" href="../pages/dondeestamos.html">Donde estamos</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -53,10 +51,11 @@
             </div>
         </nav>
 
+
     </header>
 
     <main class="reservasbg">
-    <h2>Reservas</h2>
+    <h2 class="reservas-h2">Reservas</h2>
 
     <section class="reservas">
     <p>Para realizar una reserva en Café Magnolia, por favor completa el siguiente formulario con tus datos y preferencias.
@@ -99,14 +98,14 @@
         <textarea id="comments" name="comments" rows="4" cols="50"
             placeholder="Escribe aquí cualquier comentario."></textarea>
 
-        <input type="submit" value="Reservar">
+        <input class="reservar-boton" type="submit" value="Reservar">
     </form>
     </section>
     </main>
 
     <footer>
 
-        <a class="top" href="#top">Volver Arriba</a>
+        <a class="volverarriba" href="#top">Volver Arriba_</a>
         <span>Síguenos en nuestras redes sociales:</span>
         <a class="links" href="https://www.instagram.com/" target="_blank">Instagram</a>
         <a class="links" href="https://www.facebook.com/" target="_blank">Facebook</a>

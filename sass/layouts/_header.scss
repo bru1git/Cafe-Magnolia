@@ -1,0 +1,36 @@
+
+/* --------------------------header---------------------------- */
+
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.container-fluid {
+  background: $bg-color-gradient-top;
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+    background-image: url(../img/casona.png);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+
+#top {
+    @include flexboxcenter;
+    margin-top: 50px;
+    font-family: $font-primario;
+    font-size: 4em;
+    font-style: italic;
+    color: $color-secundario;
+    text-shadow: $shadow-color 5px 5px 5px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    margin: 20px;
+}

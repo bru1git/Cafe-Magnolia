@@ -1,0 +1,25 @@
+/* ----------------------navbar--------------------------- */
+
+@use "../utilities/variables" as *;
+
+.nav-item a {
+    font-family: $font-primario;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: $color-primario;
+}
+
+.nav-item a:hover {
+    color: $color-secundario;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+
+.navbar-brand {
+    font-family: $font-primario;
+    font-style: oblique;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: $color-primario;
+}
